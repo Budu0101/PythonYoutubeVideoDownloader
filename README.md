@@ -28,16 +28,16 @@ root = Tk()
 # adding root window title and dimension for Tkinter
 root.title("Python Youtube Video Downloader") 
 root.geometry('350x200')
-=======
+
 # Passing the url in the pytube function, that is YouTube
 yt = YouTube(video_url)
->>>>>>> fd68bc7c7fbf9bb18bf7d27e0955f7784b03dec6
+
 
 # adding a label to the root window 
 lbl = Label(root, text = "Please enter a valid Youtube URL: ") 
 lbl.grid() 
 
-<<<<<<< HEAD
+
 # adding Entry Field 
 video_url = Entry(root, width=10) 
 video_url.grid(column =1, row =0) 
