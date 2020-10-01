@@ -14,6 +14,7 @@ root.geometry('350x200')
 # Passing the url in the pytube function, that is YouTube
 yt = YouTube(video_url)
 
+
 # adding a label to the root window 
 lbl = Label(root, text = "Please enter a valid Youtube URL: ") 
 lbl.grid() 
