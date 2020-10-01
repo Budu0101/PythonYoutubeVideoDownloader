@@ -3,7 +3,6 @@ from pytube import *
 # Importing tkinter module
 from tkinter import *
 
-<<<<<<< HEAD
 # creating root window  for Tkinter
 root = Tk() 
   
@@ -45,7 +44,4 @@ btn.grid(column=2, row=0)
 
 
 root.mainloop()
-=======
-# Downloads the .mp4 file into the current directory. You can change it if you want.
-video.download()
->>>>>>> fd68bc7c7fbf9bb18bf7d27e0955f7784b03dec6
+
