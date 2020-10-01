@@ -10,7 +10,7 @@ Use the package manager [pip]
 (https://pypi.org/project/pytube/).
 
 ```bash
-pip install pytube
+pip install pytube3
 ```
 
 
